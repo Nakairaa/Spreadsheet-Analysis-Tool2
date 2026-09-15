@@ -5,19 +5,7 @@
 import csv
 
 
-'''
-author @nakaira
-this function is an extension of the read_data function, 
-allowing the user to choose between two data sets and further options tailored to each dataset
-due to different columns. Provides various user inputs and if-else statements
-most difficult part was mapping the functions to numbers in a dictionary to allow the selection
-of a function, ran into a loop problem read_data instead of sales_data
-'''
-
-''' Generic CSV loader: reads any CSV file into a list of dictionaries,
-and handles file/format errors in one place instead of repeating this logic for every dataset.
-
-def load_csv()  '''
+''' author @nakaira '''
 
 
 def read_data():
@@ -85,8 +73,7 @@ def read_data():
 '''
 Note: this function is named "sales by month" but doesn't actually aggregate sales
 per month — zip(months, sales) just pairs each row's month with its sale value in order,
-so duplicate months are listed separately rather than summed. A dictionary that
-accumulates totals (monthly[month] += sale) would fix this.
+so duplicate months are listed separately rather than summed.
 '''
 
 def run_sales_by_month(sales_data):
