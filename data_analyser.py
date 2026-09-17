@@ -139,4 +139,7 @@ def top_n_expensive_cars(car_data):
         print(f"{car['make']} {car['model']} - £{car['sellingprice']}")
     return None
 
+if __name__ == "__main__":
+    read_data()
+
 

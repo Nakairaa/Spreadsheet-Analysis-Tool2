@@ -41,7 +41,7 @@ This project demonstrates proficiency in Python fundamentals including CSV file 
 
 ### Run the Program
 ```bash
-python data_analyser.py
+python3 data_analyser.py
 ```
 
 ### Interactive Menu
